@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .container .content-box {
+        padding: 10px;
+        margin: 10px auto;
+        max-width: 75%;
+    }
+
+    .container .content-box .typing-text {
+        font-size: 10px;
+    }
+
+    .container .content-box .typing-text p {
+        font-size: 15px;
+    }
+
+    .header-container {
+        margin-top: 20px;
+    }
+    .statistics-container {
+        display: flex;
+    
+        /* Arrange horizontally */
+        flex-direction: row;
+    
+        /* Distribute space around items */
+        justify-content: space-around;
+    
+        /* Align in the center */
+        align-items: center;
+    
+        /* Prevent from wrapping to the next line */
+        flex-wrap: nowrap;
+    }
+    .circle-box-container,
+    .square-box-container {
+        flex: 0 1 auto;
+        margin: 0px;
+    }
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "name": "speed-test-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
