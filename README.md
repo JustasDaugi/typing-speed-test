@@ -1,6 +1,6 @@
 ## Usage
 1. Right click on index.html, select 'Open with Live Server'. 
-2. Alternatively, you can run the via command node src/main/server.js. Make sure to install the required packages with command npm install.
+2. Alternatively, you can run the app via command node src/main/server.js. Make sure to install the required packages with command npm install.
 
 ## Instructions
 2. Click on the text area to start typing.
