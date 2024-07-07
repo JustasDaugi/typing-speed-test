@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed-Typing Test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="./styles/headers.css" type="text/css">
+    <link rel="stylesheet" href="./styles/media.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container header-container">
+        <div class="typing-test-header">Typing-Speed Test</div>
+        <div class="typing-test-subheader">Test your typing skills</div>
+    </div>
+    <div class="container statistics-container d-flex align-items-center" role="region" aria-labelledby="statsLabel">
+        <div id="statsLabel" class="sr-only">Statistics</div>
+        <div class="circle-box-container d-flex justify-content-center align-items-center">
+            <div class="circle-box d-flex flex-column justify-content-center align-items-center">
+                <div class="number" id="seconds"></div>
+                <div class="label">seconds</div>
+            </div>
+        </div>
+        <div class="ml-4 d-flex">
+            <div class="square-box-container mx-2 d-flex flex-column justify-content-center align-items-center">
+                <div class="number" id="words">0</div>
+                <div class="label">words/min</div>
+            </div>           
+            <div class="square-box-container mx-2 d-flex flex-column justify-content-center align-items-center">
+                <div class="number" id="percentage">100%</div>
+                <div class="label">% accuracy</div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <div class="button-container d-flex justify-content-center align-items-center mb-3">
+            <button id="restartButton" class="btn res-btn">Restart</button>
+            <button id="resetButton" class="btn res-btn ml-2">Reset</button>
+        </div>
+        <div class="content-box" role="region" aria-labelledby="typingAreaLabel">
+            <div id="typingAreaLabel" class="sr-only">Typing Area</div>
+            <div class="typing-text">
+                <p id="typingArea">Loading...</p>
+            </div>
+            <input type="text" class="input-field form-control" style="opacity: 0;">
+        </div>
+        <div class="score-container text-center mt-4" role="region" aria-labelledby="scoresLabel">
+            <div id="scoresLabel" class="sr-only">Scores</div>
+            <div class="show-scores-container d-flex justify-content-center align-items-center">
+                <a href="#" id="showScoresLink" class="show-scores-link">Show Scores</a>
+                <img src="./assets/arrow-down.svg" alt="Score Icon" class="ml-2" id="scoreImage">
+            </div>
+            <div id="scoresChartContainer" class="mt-4 d-none">
+                <canvas id="scoresChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="./src/main/app.js"></script>
+</body>
+</html>

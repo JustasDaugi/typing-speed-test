@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    margin-top: 100px;
+}
+
+.typing-test-header, .typing-test-subheader {
+    font-family: 'Lora', serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.typing-test-subheader {
+    font-size: 1.75rem;
+}
