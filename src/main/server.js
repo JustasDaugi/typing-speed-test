@@ -12,7 +12,7 @@ dotenv.config({ path: configPath });
 const hostname = "127.0.0.1";
 const port = 8080;
 
-const basePath = path.join(__dirname, "../");
+const basePath = path.join(__dirname, "../../");
 if (!basePath) {
   console.error("Error: Base path could not be set.");
   process.exit(1);
