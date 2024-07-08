@@ -1,5 +1,5 @@
-import { elements } from "../main/config.js";
-import { state, startTimer } from "../main/state.js";
+import { elements } from "../utils/config.js";
+import { state, startTimer } from "../utils/state.js";
 import { highlightCurrentWord, updateAccuracy } from "../utils/helpers.js";
 
 export function handleUserInput() {

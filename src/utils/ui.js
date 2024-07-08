@@ -1,4 +1,4 @@
-import { setupFocusEvents } from "../main/events.js";
+import { setupFocusEvents } from "./events.js";
 
 export function prepareDisplayText(data) {
   const text = data.lines.join(" ");

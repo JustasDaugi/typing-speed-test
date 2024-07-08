@@ -1,8 +1,8 @@
-import { prepareDisplayText, loadParagraph } from "../utils/ui.js";
+import { prepareDisplayText, loadParagraph } from "./ui.js";
 import { config, elements } from "./config.js";
-import { getRandomWords } from "../utils/words.js";
-import { calculateAccuracy } from "../utils/helpers.js";
-import { saveScore, displayScores } from "../utils/storage.js";
+import { getRandomWords } from "./words.js";
+import { calculateAccuracy } from "./helpers.js";
+import { saveScore, displayScores } from "./storage.js";
 
 export const state = {
   timer: null,

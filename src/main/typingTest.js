@@ -1,5 +1,5 @@
-import { fetchAndDisplayText } from "./state.js";
-import { setupShowScores } from "./events.js";
+import { fetchAndDisplayText } from "../utils/state.js";
+import { setupShowScores } from "../utils/events.js";
 import { handleUserInput, handleKeyDown } from "./input.js";
 import { displayScores } from "../utils/storage.js";
 

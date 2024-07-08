@@ -1,4 +1,4 @@
-import { getRandomWords } from "../utils/words.js";
+import { getRandomWords } from "./words.js";
 
 export const config = {
   wordsCollection: getRandomWords(70),

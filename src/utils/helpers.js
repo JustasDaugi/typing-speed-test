@@ -1,5 +1,5 @@
-import { elements } from "../main/config.js";
-import { state } from "../main/state.js";
+import { elements } from "./config.js";
+import { state } from "./state.js";
 
 export function calculateAccuracy(correctWords, attemptedWords) {
   if (attemptedWords === 0) return 0;

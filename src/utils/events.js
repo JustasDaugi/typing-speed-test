@@ -1,6 +1,6 @@
-import { elements } from "./config.js";
-import { displayScores } from "../utils/storage.js";
-import { getRandomWords } from "../utils/words.js";
+import { elements } from "../utils/config.js";
+import { displayScores } from "./storage.js";
+import { getRandomWords } from "./words.js";
 import { resetTest, restartTest, fetchAndDisplayText } from "./state.js";
 
 document.addEventListener("DOMContentLoaded", function () {
