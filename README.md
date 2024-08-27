@@ -28,7 +28,7 @@ This Typing Speed Test is a web-based application designed to help users improve
 
 ## How to Use
 
-1. Open the application in your web browser
+1. Open the application in your web browser via the link in the description
 2. Start typing the displayed text to begin the test
 3. Monitor your performance with the live accuracy tracker
 4. Use the "Restart" button to practice on the same text again
